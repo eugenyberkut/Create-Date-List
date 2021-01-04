@@ -48,9 +48,9 @@ public class ShowListActivity extends AppCompatActivity {
         mail.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String to=edMail.getText().toString();
-               // String to="nberkunsky@gmail.com";
+
                 String subject=edTopic.getText().toString();
-//                String subject="nata";
+
                 String message=tvListDates.getText().toString();
 
                 Intent email = new Intent(Intent.ACTION_SEND);
