@@ -34,7 +34,7 @@ public class ShowListActivity extends AppCompatActivity {
         }
         edTopic.setText("CDL-Даты Группа "+listDates.get(0));
 
-        Button next = (Button) findViewById(R.id.buttonBack);
+        Button next = findViewById(R.id.buttonBack);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent();
